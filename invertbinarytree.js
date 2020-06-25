@@ -54,7 +54,8 @@ tree.addRightNode(tree.root.right.right.right, 810)
 
 
 
-//O(n) solution that recurses over the 
+//O(n) solution that recurses over the tree and switches every left and right
+//pointer.
 
 function dfs(node) {
     if (!node) {
